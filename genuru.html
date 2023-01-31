@@ -106,37 +106,22 @@
                     resize: none;
                     border: 1px solid grey;
                 }
-                .button {
-  background-color: #50ff39; /* Green */
-  border: 3px solid Black;
- 
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  cursor: pointer;
-    font-weight: bold;
-    width: 115px;
-  }
+
     
     </style>
- <script>
+<script>
 
   window.onload = function(){
       // your code here
    
 
 // Define the string
-var string = 'https://plenturt.lat/gg50.html?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNjkvbWFuaWZlc3QubXBk&key=OGUzZWQ4ODAwZjkwNThiNWFmNzQ4MzA4MWU3ZjdmNTU=&key2=NThhYzc5NGY2ZWFhNDVmYmYzMTk3ODcxZjRiMzNhZWE=';
+var string = 'https://plenturt.lat/gg50.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9HRU5fVFYvU0FfTGl2ZV9kYXNoX2VuYy9HRU5fVFYubXBk&key=NDllYjkyNGJhOTk4Y2E3ZmJiYWVlMzBkY2VmMWVjYjQ=&key2=NmUxMzFiMDRiMmU4NzU5OGZiNTg4YWMyMDU2NzM2OTg=';
 
 // Encode the String
 var encodedString = btoa(string);
 console.log(encodedString); // Outputs: "SGVsbG8gV29ybGQh"
-
-
-
-
 var source = "https://megatelevisionhd.com/embed/repro/?r="+encodedString;
-
 
   var newFrameName = "hello";
   const iframe = document.getElementById("iframe");
@@ -158,12 +143,13 @@ var source = "https://megatelevisionhd.com/embed/repro/?r="+encodedString;
       </a>
     </div>
     <br>
-    <center><h2>Nacional Geographic en vivo </h2></center>
+    <center><h2></h2></center>
         <input class="button" onclick="toggleFullscreen()" type="button" value="Fullscreen TV" />
 <br>
 <br>
     <div class="video-container">Loading the player...
- <iframe width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay *; encrypted-media *;" name="iframe" src=""></iframe>    
+
+            <iframe allow="encrypted-media" width="100%" height="100%" src="" id="iframe" name="iframe" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
      </div>
     <br>
  
